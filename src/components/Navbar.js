@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://sksaakeebvlogs.vercel.app/"
+                href="https://blogsksaakeeb.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
