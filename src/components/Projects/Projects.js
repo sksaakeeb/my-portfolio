@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="To Do App"
+              description="Track is your ultimate companion for staying organized and productive, designed to streamline your daily tasks and help you achieve your goals with ease. Whether you're managing personal projects, planning your workday, or coordinating team efforts, TaskTrack has got you covered."
+              ghLink="https://github.com/sksaakeeb/to-do-app"
+              demoLink=""
             />
           </Col>
 
@@ -36,14 +36,14 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Password-Manager App"
+              description="SecurePass is the ultimate solution for securely storing and managing all your passwords in one place. Say goodbye to forgotten passwords and insecure practices. With SecurePass, you can confidently safeguard your sensitive information while enjoying seamless access across all your devices."
+              ghLink="https://github.com/sksaakeeb/password-manager-app"
+              demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
